@@ -1,0 +1,12 @@
+{
+  "name": "Ejercicio_01",
+  "version": "1.0.0",
+  "description": "En este ejercio vamos a implementar paso-a-paso una aplicación qe contenga el bundling necesario para trabajar con",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
