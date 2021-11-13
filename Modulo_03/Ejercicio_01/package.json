@@ -1,12 +1,17 @@
 {
-  "name": "Ejercicio_01",
+  "name": "bundling-ejercicio-1",
   "version": "1.0.0",
-  "description": "En este ejercio vamos a implementar paso-a-paso una aplicación qe contenga el bundling necesario para trabajar con",
+  "description": "Boilerplate de Webpack",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
