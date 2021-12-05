@@ -1,0 +1,104 @@
+@import url(https://fonts.google.com/specimen/Nonito#standard-styles);
+
+/* Variables */
+$bgcolor: lightblue;
+$header-border: orange;
+$border-color: black;
+$base-color:  rosybrown;
+
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  $bgcolor;
+    font-family: 'Nonito', Calibri, sans-serif;
+}
+
+header {
+    margin:2vw;
+    padding: .3rem 1rem;
+    border-left: 15px solid $header-border;
+    border-bottom: 1px solid $header-border;
+}
+
+.box {
+    border: solid 1px $border-color;
+    border-radius: .3em;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px $border-color;
+    margin: 1rem 1rem;
+
+    .base-color {
+        background-color: $base-color;
+    }
+
+    .color-box-text {
+        color:white;
+    }
+
+    @for $i from 1 to 5 {
+        .darken-#{$i} {
+            background-color: darken($base-color, $i*7%);
+        }
+    
+        .lighten-#{$i} {
+            background-color: lighten($base-color, $i*7%);
+        }
+    }
+}
+
+.olive {
+    $base-color: mediumseagreen;
+
+    
+    .base-color {
+        background-color: $base-color;
+    }
+
+    .color-box-text {
+        color:white;
+    }
+
+    @for $i from 1 to 5 {
+        .darken-#{$i} {
+            background-color: darken($base-color, $i*7%);
+        }
+    
+        .lighten-#{$i} {
+            background-color: lighten($base-color, $i*7%);
+        }
+    }
+}
+
+
+.violet {
+    $base-color: purple;
+
+    .base-color {
+        background-color: $base-color;
+    }
+
+    @for $i from 1 to 5 {
+        .darken-#{$i} {
+            background-color: darken($base-color, $i*5%);
+        }
+    
+        .lighten-#{$i} {
+            background-color: lighten($base-color, $i*5%);
+        }
+    }
+}
+
+
+
+
+

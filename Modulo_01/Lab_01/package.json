@@ -1,0 +1,14 @@
+{
+  "name": "lab_01",
+  "version": "1.0.0",
+  "description": "Lemoncode FE Master - XI: Ejecicio 1 (M.1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adolfo García",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.44.0"
+  }
+}
