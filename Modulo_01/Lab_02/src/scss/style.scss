@@ -1,0 +1,57 @@
+
+$header-border: orange;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin:2vh 2vw 1vh 2vw;
+    padding: .3rem 1rem;
+    border-left: 15px solid $header-border;
+    border-bottom: 1px solid $header-border;
+
+    & > h2 {
+        font-size: -7rem;
+        color: gray;
+    }
+}
+
+div.selectedTheme {
+    margin: 2vh 2vw;
+
+    & > span{
+        margin-left: 1rem;
+        border: solid 1px black;
+        border-radius: 5px;
+        padding: .2rem 1rem;
+    }
+}
+
+div.container {
+    padding: auto;
+    margin: .3rem 2.0rem;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    
+
+    .box {
+        border: solid 1px grey;
+        border-radius: 5px;
+        padding: 20px 15px;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    & > p {
+        padding: 5px 15px;;
+        color:red;
+    }
+}
