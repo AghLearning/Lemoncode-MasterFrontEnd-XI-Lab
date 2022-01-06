@@ -47,19 +47,7 @@ En este ejercio vamos a implementar paso-a-paso una aplicación qe contenga el b
 
     b) Configuramos propiedades
 
-
-5. Transpilación a ES2015 con Babel.
-
-    a) Instalar: 
-
-    - Libreria: ``` npm install --save-dev @babel/cli @babel/core @babel/preset-env  ```
-
-    - Loader: ``` npm install --save-dev babel-loader ```
-
-    b) Configurar Webpack, para que webpack se pueda comu 
-
-
-6. Instalamos servidor para visualizar la web:
+5. Instalamos servidor para visualizar la web:
 
     a) Instalar: ``` npm install --save-dev webpack-dev-server ```
 
@@ -86,6 +74,20 @@ En este ejercio vamos a implementar paso-a-paso una aplicación qe contenga el b
             }),
         ]
     ```
+
+8. Transpilación a ES2015 con Babel.
+
+    a) Instalar: 
+
+    - Libreria: ``` npm install --save-dev @babel/cli @babel/core @babel/preset-env  ```
+
+    - Loader: ``` npm install --save-dev babel-loader ```
+
+    b) Configurar Webpack, para que webpack se pueda comu 
+
+
+
+
    
    rdfg
 
